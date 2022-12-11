@@ -1,0 +1,23 @@
+{
+  "name": "meta-front-end-certification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "p.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theoriginalvisagie/Meta-Front-End-Certification.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoriginalvisagie/Meta-Front-End-Certification/issues"
+  },
+  "homepage": "https://github.com/theoriginalvisagie/Meta-Front-End-Certification#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
