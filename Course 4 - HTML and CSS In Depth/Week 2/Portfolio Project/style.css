@@ -1,0 +1,144 @@
+body{
+    background-color: #EDEFEE;
+    /* font-family: "Marakazi Text", "Serif"; */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+nav{
+    /* background-color: black; */
+    height:50px;
+    margin-bottom: 25px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+nav a {
+    color: #FFF;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 8px;
+}
+
+nav a:hover{
+    color: black;
+    border: 0.1px solid black;
+    background-color: antiquewhite;
+    transition: 1s;
+}
+
+nav a:active{
+    background-color: antiquewhite;
+    color: black;
+}
+
+main{
+    min-height: 61vh;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    text-align: center;
+    margin: 25px;
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer div > img {
+    width: 250px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0.1px solid black;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    width: 115px;
+    background-color: black;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+.boxShadow{
+    box-shadow: 8px 8px 25px rgba(170, 170, 170,0.3);
+}
+
+.artcleHeight{
+    height: 550px;
+}
+
+.articleImage{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    object-position: 0% 80%;
+}
+
+#footerImage{
+    text-align: right;
+}
+
+#footerCopy{
+    margin-top: 12px;
+    text-align: left;
+}
+
+#banner{
+    background-image: url("images/banner.jpg");
+    background-size: 1713px;
+    height: 303px;
+    color: #FFF;
+}
+
+#bannerArticle{
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#bannerArticle div{
+    text-align: center;
+    margin: 20px;
+}
