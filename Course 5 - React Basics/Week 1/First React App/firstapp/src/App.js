@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Heading from './Heading';
 import './App.css';
 
 function App() {
@@ -17,9 +18,19 @@ function App() {
         >
           Learn React Basics in the browser
         </a>
+        <Heading/>
       </header>
+      
     </div>
   );
 }
 
+// function Heading(){
+//   let title = "This is some heading text";
+//   return (
+//     <h1>{title}</h1>
+//   );
+// };
+
 export default App;
+
