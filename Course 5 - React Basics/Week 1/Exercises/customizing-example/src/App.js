@@ -11,7 +11,15 @@ import Promo from './components/Promo';
 
 function App() {
   return (
-    <Nav />
+    <>
+      <Nav />
+      <Promo/>
+      <Intro1/>
+      <Intro2/>
+      <Intro3/>
+      <Footer/>
+    </>
+    
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
