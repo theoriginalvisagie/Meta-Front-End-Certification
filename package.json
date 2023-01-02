@@ -19,5 +19,8 @@
   "homepage": "https://github.com/theoriginalvisagie/Meta-Front-End-Certification#readme",
   "devDependencies": {
     "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.6.1"
   }
 }
