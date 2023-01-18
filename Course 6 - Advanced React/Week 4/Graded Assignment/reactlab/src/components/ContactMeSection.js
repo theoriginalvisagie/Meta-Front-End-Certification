@@ -33,11 +33,18 @@ const LandingSection = () => {
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Required"),
-      email: Yup.string().email("Invalid").required("Required"),
-      commet: Yup.string()
-        .min(25, "25 Character Minimum")
+      email: Yup.string().email("Invalid email address.").required("Required"),
+      comment: Yup.string()
+        .min(25, "Must be at least 25 characters.")
         .required("Required"),
     }),
+  }, [response]);
+
+  useEffect(() => {
+    if (response) {
+      onOpen(response.type, response.message);
+      if (response.type) formik.resetForm();
+    }
   }, [response]);
 
   return (
@@ -93,7 +100,7 @@ const LandingSection = () => {
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
-              <Button type="submit" colorScheme="purple" width="full">
+              <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
                 Submit
               </Button>
             </VStack>
