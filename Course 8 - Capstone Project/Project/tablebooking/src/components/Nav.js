@@ -1,7 +1,7 @@
 function Nav(){
     const menuItems = ["Home","About","Menu","Reservations","Order Online","Login"];
     return(
-        <nav>
+        <nav className='nav'>
             <img src="" alt=""></img>
             <ul>
                 {

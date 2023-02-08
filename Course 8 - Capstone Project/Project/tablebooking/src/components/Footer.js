@@ -21,7 +21,7 @@ function Footer(){
     ];
 
     return(
-        <footer>
+        <footer className='footer'>
             <img src="" alt=""></img>
             <h3>Doormat NAvigation</h3>
             <ul>
