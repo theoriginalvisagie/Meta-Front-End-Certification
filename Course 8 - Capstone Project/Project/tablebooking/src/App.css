@@ -50,6 +50,7 @@
 }
 
 .nav{
+  text-align: center;
   grid-column-start: 1;
   grid-column-end: 12;
   grid-row-start: 2;
@@ -71,4 +72,26 @@
   grid-row-start: 11;
   grid-row-end: 13;
   border: 1px solid black;
+}
+
+.footer > div > ul > li {
+  list-style-type: none;
+}
+
+.menuItems > li {
+  text-decoration: none;
+  display: inline;
+  margin: 10px;
+  /* float: right; */
+  /* font-size: 200px;; */
+}
+
+.menuItems > li > a {
+  text-decoration: none;
+  /* color: #61dafb; */
+}
+
+.footerItems{
+  display: inline-block;
+  text-align: left;
 }

@@ -1,9 +1,11 @@
+import '../App.css';
+
 function Nav(){
     const menuItems = ["Home","About","Menu","Reservations","Order Online","Login"];
     return(
         <nav className='nav'>
             <img src="" alt=""></img>
-            <ul>
+            <ul className="menuItems">
                 {
                     menuItems.map((item)=>{
                         return(
